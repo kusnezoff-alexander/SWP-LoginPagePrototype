@@ -1,0 +1,7 @@
+{
+  "name": "swp-login-page",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
