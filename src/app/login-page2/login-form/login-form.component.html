@@ -1,0 +1,10 @@
+<ion-list (keypress)="keyPress($event)">
+  <ion-item>
+    <ion-input id="login-username" label="Username" placeholder="Username"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input id="login-password" type="password" label="Password" placeholder="Password"></ion-input>
+  </ion-item>
+</ion-list>
+<ion-button id="login-button" (click)="checkPassword()">Login</ion-button>
